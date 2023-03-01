@@ -13,9 +13,10 @@ describe('TicTacToe', () => {
         });
         test('game should start with Player_X', () => {
             expect(game.player).toBe(PLAYER_X);
-        }
-
-        );    
+        });    
     });
 
+    describe(('Game Play'),
+
+    );    
 });
