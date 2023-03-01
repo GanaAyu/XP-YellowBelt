@@ -10,7 +10,12 @@ describe('TicTacToe', () => {
             const COL = game.board[0].length;
             expect(ROW).toEqual(SIZE);
             expect(COL).toEqual(SIZE);
-        });    
+        });
+        test('game should start with Player_X', () => {
+            expect(game.player).toBe(PLAYER_X);
+        }
+
+        );    
     });
 
 });
